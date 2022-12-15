@@ -14,3 +14,7 @@
     max-height: 100%;
 }
 /* we are using #canvas1 to link the class canvas1 from index.html */
+
+#player {
+    display: none;
+}
