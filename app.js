@@ -18,7 +18,7 @@ window.addEventListener('load', function () { // adding load event in order to m
         }
 
         update() {
-            this.player.update();
+            this.player.update(this.input.keys);
         }
         draw(context) {
             this.player.draw(context);
